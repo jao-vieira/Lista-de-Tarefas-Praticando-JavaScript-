@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #5e5e5e;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.container {
+    background-color: #c8c8c8;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(182, 167, 167, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#addTarefa {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+#botaoAdicionar {
+    padding: 10px 15px;
+    border: none;
+    background-color: #593F62;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botaoAdicionar:hover {
+    background-color: #20165b;
+}
+
+#Lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Lista li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 5px solid #593F62;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
